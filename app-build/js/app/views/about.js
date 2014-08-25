@@ -1,0 +1,1 @@
+define(["jquery","underscore","backbone"],function(e,t,n){var r=n.View.extend({html:["<h3>About page</h3>",'<p class="about text-center lead">This is my new weather application!</p>'].join(""),initialize:function(){},render:function(){return this.$el.html(this.html),this}});return r});
